@@ -13,6 +13,8 @@
 		4CDB53D21C3103D20020CE0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDB53D01C3103D20020CE0F /* Main.storyboard */; };
 		4CDB53D41C3103D20020CE0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDB53D31C3103D20020CE0F /* Assets.xcassets */; };
 		4CDB53D71C3103D20020CE0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDB53D51C3103D20020CE0F /* LaunchScreen.storyboard */; };
+		4CDB53E21C3106A10020CE0F /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CDB53E11C3106A10020CE0F /* city.plist */; };
+		4CDB53E51C3106D00020CE0F /* ClityListDatePick.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB53E41C3106D00020CE0F /* ClityListDatePick.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		4CDB53D31C3103D20020CE0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CDB53D61C3103D20020CE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CDB53D81C3103D20020CE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDB53E11C3106A10020CE0F /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
+		4CDB53E31C3106D00020CE0F /* ClityListDatePick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClityListDatePick.h; sourceTree = "<group>"; };
+		4CDB53E41C3106D00020CE0F /* ClityListDatePick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClityListDatePick.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 		4CDB53C61C3103D20020CE0F /* CityList */ = {
 			isa = PBXGroup;
 			children = (
+				4CDB53E01C3106890020CE0F /* ClityListDatePick */,
 				4CDB53CA1C3103D20020CE0F /* AppDelegate.h */,
 				4CDB53CB1C3103D20020CE0F /* AppDelegate.m */,
 				4CDB53CD1C3103D20020CE0F /* ViewController.h */,
@@ -77,6 +83,16 @@
 				4CDB53C81C3103D20020CE0F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CDB53E01C3106890020CE0F /* ClityListDatePick */ = {
+			isa = PBXGroup;
+			children = (
+				4CDB53E11C3106A10020CE0F /* city.plist */,
+				4CDB53E31C3106D00020CE0F /* ClityListDatePick.h */,
+				4CDB53E41C3106D00020CE0F /* ClityListDatePick.m */,
+			);
+			path = ClityListDatePick;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CDB53D71C3103D20020CE0F /* LaunchScreen.storyboard in Resources */,
+				4CDB53E21C3106A10020CE0F /* city.plist in Resources */,
 				4CDB53D41C3103D20020CE0F /* Assets.xcassets in Resources */,
 				4CDB53D21C3103D20020CE0F /* Main.storyboard in Resources */,
 			);
@@ -149,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CDB53E51C3106D00020CE0F /* ClityListDatePick.m in Sources */,
 				4CDB53CF1C3103D20020CE0F /* ViewController.m in Sources */,
 				4CDB53CC1C3103D20020CE0F /* AppDelegate.m in Sources */,
 				4CDB53C91C3103D20020CE0F /* main.m in Sources */,
